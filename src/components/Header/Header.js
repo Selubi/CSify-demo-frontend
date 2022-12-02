@@ -34,7 +34,7 @@ const Header = () => {
                 >
                   PROJECTS
                 </Nav.Link>
-                <NavLink to="/csify">CSIFY</NavLink>
+
                 <Nav.Link
                   className="text-white"
                   href="https://www.selubi.tech/articles"

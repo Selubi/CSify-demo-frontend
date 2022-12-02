@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children: [
       {
-        path: "/csify",
+        path: "/",
         element: <Csify></Csify>,
       },
     ],
