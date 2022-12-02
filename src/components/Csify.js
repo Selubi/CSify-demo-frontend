@@ -27,15 +27,14 @@ const Csify = () => {
     <div className="container">
       <h2 className="mt-5 text-white">Project: CSify</h2>
 
-      <div className="d-flex align-items-center justify-content-between mt-5">
-        <div>
-          <p className="fs-4 text-white">Base Language</p>
+      <div className="row d-flex align-items-center justify-content-between mt-5">
+        <div className="col col-xs-6 col-sm-6 col-md-6 mb-3">
+          <p className="fs-4 m-0 text-white">Base Language</p>
           <select
-            className="secondary border px-5  py-3 fs-5 fw-semibold rounded text-primary"
+            className="secondary border px-5  py-3 fs-5 text-center fw-semibold rounded text-primary"
             value={base_language}
             onChange={(e) => setBase_language(e.target.value)}
           >
-            {/* if(base_language === "en"){<option value="en">English</option>} */}
             <option>select</option>
             <option value="en">English - en</option>
             <option value="ja">Japanese - ja</option>
@@ -62,11 +61,10 @@ const Csify = () => {
             <option value="uk">Ukrainian - uk</option>
           </select>
         </div>
-        {/* <h1 className="text-primary">To</h1> */}
-        <div>
-          <p className="fs-5  text-white">Secondary Language</p>
+        <div className="col col-xs-6 col-xs-6 col-sm-6 col-md-6">
+          <p className=" m-0 fs-4  text-white">Secondary Language</p>
           <select
-            className="secondary border px-5 py-3 fs-5 fw-semibold rounded text-primary"
+            className="secondary border px-5 text-center py-3 fs-5 fw-semibold rounded text-primary"
             value={inserted_language}
             onChange={(e) => setInserted_language(e.target.value)}
           >
