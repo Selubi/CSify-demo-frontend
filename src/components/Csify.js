@@ -8,7 +8,7 @@ const Csify = () => {
 
   const translate = () => {
     let data = { base_sentence, base_language, inserted_language };
-    fetch("https://csify.selubi.tech/csify/", {
+    fetch("https://csify-backend.selubi.tech/csify/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
