@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar className="navbar p-4 bg-dar" expand="lg">
         <Container className="ms-auto">
           <Navbar.Brand>
-            <NavLink to="/csify">
+            <NavLink to="/">
               <img src={logo} alt="" width="150" />
             </NavLink>
           </Navbar.Brand>
